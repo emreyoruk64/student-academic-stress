@@ -51,7 +51,7 @@ This repository contains a Jupyter Notebook that analyzes a small survey dataset
    ```
 2. Navigate to the project directory:
    ```bash
-   cd obesity-levels-prediction
+   cd StudentAcademicStress
    ```
 3. Install required dependencies:
    ```bash
