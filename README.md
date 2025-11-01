@@ -82,9 +82,9 @@ This project is open-source under the MIT License.
 
 ---
 
-## Author & Contact
+##  Author & Contact
 
-Created by: Emre Yörük
+**Created by:** [Emre Yörük](https://github.com/emreyoruk64)  
+**Purpose:** Educational notebook for data preprocessing and model experimentation.  
+**Connect:** If you find this helpful, consider giving the repo a ⭐ and sharing your thoughts!
 
-Purpose: Educational notebook for data preprocessing and model experimentation.
-Connect: If you find this helpful, consider giving the repo a ⭐ and sharing your thoughts!
