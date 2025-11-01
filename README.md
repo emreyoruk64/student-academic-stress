@@ -9,7 +9,6 @@ This repository contains a Jupyter Notebook that analyzes a small survey dataset
 - Perform **Exploratory Data Analysis (EDA)** on a small, real-world dataset.  
 - Demonstrate how to **clean** and **encode** categorical variables using `OneHotEncoder` and `pd.get_dummies()`.  
 - Apply standard preprocessing steps such as **missing value imputation** and **scaling**.  
-- Train and evaluate simple baseline models (KNN, Logistic Regression, etc.).  
 - Discuss challenges when working with **small or imbalanced datasets**.
 
 ---
@@ -32,16 +31,6 @@ This repository contains a Jupyter Notebook that analyzes a small survey dataset
    - Using `OneHotEncoder` (from `sklearn`)  
    - Using `pandas.get_dummies()` for quick encoding
 
-6. **Scaling**  
-   - Applied `RobustScaler` to reduce the influence of outliers.
-
-7. **Train/Test Split**  
-   - Properly split the dataset with `stratify=y` to preserve label distribution.
-
-8. **Baseline Models & Evaluation**  
-   - Tested models such as **KNN**, **Logistic Regression**, and **Decision Tree**.  
-   - Evaluated with metrics like **accuracy**, **precision**, **recall**, and **F1-score**.
-
 9. **Discussion & Observations**  
    - Reflections on small dataset behavior, class imbalance, and possible improvements.
 
@@ -51,9 +40,7 @@ This repository contains a Jupyter Notebook that analyzes a small survey dataset
 
 - **Categorical variables**: Prefer `OneHotEncoder` for production pipelines; use `get_dummies()` for quick EDA.  
 - **Missing values**: Mode imputation works for single missing entries; consider `SimpleImputer` for larger gaps.  
-- **Scaling**: `RobustScaler` is effective when outliers exist.  
 - **Evaluation**: On small datasets, accuracy can be misleading — check macro F1 and per-class recall instead.  
-- **KNN behavior**: Accuracy often depends strongly on the choice of `k`; cross-validation helps find optimal parameters.  
 
 ---
 
